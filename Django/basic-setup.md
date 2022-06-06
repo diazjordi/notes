@@ -21,7 +21,8 @@ python3 -m venv {path to virtual env}
 source <venv>/bin/activate
 ```
 
-## Add Django to virtual env 
+## Add Django to virtual env
+
 virtual env must be active
 
 ```python
@@ -37,7 +38,7 @@ project in
 django-admin startproject {project name}
 ```
 
---- creates Django project in current directory
+--- creates Django project structure in current directory
 
 ```python
 django-admin startproject {project name} . 
@@ -59,7 +60,8 @@ These files are the following:
 
 The outer {project name}/ root directory is a container for your project. Its name doesn’t matter to Django; you can rename it to anything you like.
 
-manage.py: A command-line utility that lets you interact with this Django project in various ways. You can read all the details about manage.py in django-admin and manage.py.
+manage.py
+: A command-line utility that lets you interact with this Django project in various ways. You can read all the details about manage.py in django-admin and manage.py.
 
 The inner {project name}/ directory is the actual Python package for your project. Its name is the Python package name you’ll need to use to import anything inside it (e.g. {project name}e.urls).
 
